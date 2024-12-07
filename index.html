@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestore Example</title>
+    <script type="module" src="firebase-config.js"></script>
+</head>
+<body>
+    <h1>Firestore Data</h1>
+    
+    <form id="data-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        
+        <button type="submit">Add Data</button>
+    </form>
+    
+    <h2>Data from Firestore:</h2>
+    <div id="data-container"></div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
