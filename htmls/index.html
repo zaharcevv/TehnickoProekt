@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Име на проектот</title>
+    <link rel="icon" type="image/x-icon" href="/images/circlelogo.png">
+    <script type="module" src="/scripts/firebase-config.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lily Script One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class="hamburger-icon" id="hamburger-icon" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <div class="heading">
+                <h1>
+                    Име на проектот
+                </h1>
+            </div>
+        </div>
+        <div class="menu" id="menu">
+            <div class="list">       
+                <ul>
+                <li id="active-list">Welcome</li>
+                <li><p>Info</p></li>
+                <li><p>Settings</p></li>
+                <li><p>About us</p></li>
+                <li><p>Contact</p></li>
+                </ul>
+            </div> 
+          </div>
+    </header>
+    <section class="logosection">
+        <div class="logopicture">
+            <picture>
+                <img src="/images/circlelogo.png" alt="">
+            </picture>
+        </div>
+        <div class="text">
+            <h1>Welcome!</h1>
+            <p>Scroll down to get started!</p>
+        </div>
+    </section>
+    <div class="arrow">
+        <picture>
+            <img src="/images/arrow.png" alt="">
+        </picture>
+    </div>
+    <script type="module" src="/scripts/main.js"></script>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>
